@@ -1,0 +1,1 @@
+main(){system("wc -c");}
