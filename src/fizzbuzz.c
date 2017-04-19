@@ -1,1 +1,1 @@
-main(_){for(;_<101;puts(_++%5?"":"Buzz"))printf(_%3?_%5?"%d":0:"Fizz",_);}
+main(_){for(;_<101;puts("Buzz"-_*_++%5))printf(_%3?_%5?"%d":0:"Fizz",_);}
